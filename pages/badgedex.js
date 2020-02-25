@@ -47,12 +47,12 @@ function checkStatus(response) {
 
 const badgeTypes = [
   { typeNumber: -1, text: 'Todos' },
-  { typeNumber: 2, text: 'Empresas' },
-  { typeNumber: 3, text: 'Talks' },
-  { typeNumber: 4, text: 'Workshops' },
+  { typeNumber: 2, text: 'Outros'},
+  { typeNumber: 3, text: 'Dias'},
+  { typeNumber: 4, text: 'Empresas' },
   { typeNumber: 5, text: 'Oradores' },
-  { typeNumber: 6, text: 'Dias' },
-  { typeNumber: 7, text: 'Outros' },
+  { typeNumber: 6, text: 'Talks' },
+  { typeNumber: 7, text: 'Workshops'},
 ];
 
 class BadgeDex extends React.Component {
